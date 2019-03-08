@@ -16,7 +16,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-    availability-zones: http://localhost:8761/eureka/
+      availability-zones: http://localhost:8761/eureka/
 
 server:
   port: 8080
