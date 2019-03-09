@@ -8,3 +8,8 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 5
 
+eureka:
+  server:
+    enable-self-preservation:
+      false
+
