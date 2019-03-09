@@ -20,7 +20,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-          defaultZone: http://${security.user.name}:${security.user.password}@localhost:8761/eureka/
+          defaultZone: http://localhost:8761/eureka/
 
 server:
   port: 8080
