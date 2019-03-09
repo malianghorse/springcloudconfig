@@ -1,0 +1,26 @@
+spring:
+  datasource:
+      url: "jdbc:oracle:thin:@127.0.0.1:1521/ORCL"
+      username: "BPM_PX"
+      password: "88960687"
+      driver-class-name: "oracle.jdbc.driver.OracleDriver"
+  jpa:
+    show-sql: "true"
+    hibernate:
+      ddl-auto: "update"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+          defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8090
+
+example:
+  name: mr.ma
+  age: 27
