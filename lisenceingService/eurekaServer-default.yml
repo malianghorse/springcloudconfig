@@ -9,12 +9,3 @@ eureka:
     wait-time-in-ms-when-sync-empty: 5
     enable-self-preservation: false
 
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url: http://localhost:8761/eureka/
-
